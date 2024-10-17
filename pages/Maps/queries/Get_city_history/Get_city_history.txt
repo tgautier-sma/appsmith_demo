@@ -1,0 +1,1 @@
+SELECT value FROM public."app_history" WHERE app='demo' and function='map' and key='cities';

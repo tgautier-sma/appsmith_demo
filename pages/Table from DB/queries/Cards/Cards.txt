@@ -1,0 +1,1 @@
+SELECT * FROM public."cards" LIMIT {{Table_cards.pageSize}} OFFSET ({{Table_cards.pageOffset}});

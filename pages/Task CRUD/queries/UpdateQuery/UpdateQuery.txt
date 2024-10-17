@@ -1,0 +1,5 @@
+UPDATE public."tasks" SET
+		"title" = '{{update_form.fieldState.title.isVisible ? update_form.formData.title : update_form.sourceData.title}}',
+		"description" = '{{update_form.fieldState.description.isVisible ? update_form.formData.description : update_form.sourceData.description}}',
+    "completed" = '{{update_form.fieldState.completed.isVisible ? update_form.formData.completed : update_form.sourceData.completed}}'
+WHERE "id" = {{data_table.selectedRow.id}};

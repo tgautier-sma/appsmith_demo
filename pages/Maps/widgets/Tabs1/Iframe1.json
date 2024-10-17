@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 57,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "source"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "gn6fpfn5rf",
+  "leftColumn": 0,
+  "mobileBottomRow": 67,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 35,
+  "needsErrorInfo": false,
+  "originalBottomRow": 57,
+  "originalTopRow": 5,
+  "parentColumnSpace": 13.5,
+  "parentId": "t7unv8v00m",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "source": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBySBncmBe12z8yxSxai9plG8SW9Vtgx8M\n    &q={{Search_Location.text}}",
+  "srcDoc": "",
+  "topRow": 5,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "t4dpkmzlmb",
+  "widgetName": "Iframe1"
+}

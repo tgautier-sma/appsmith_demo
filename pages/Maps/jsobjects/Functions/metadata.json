@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66cfa4c28eb6fc0fd11d8a6b_ca6b4fc6-0fb1-414d-b64a-59c5927547fb",
+  "id": "Maps_Functions",
+  "unpublishedCollection": {
+    "name": "Functions",
+    "pageId": "Maps",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

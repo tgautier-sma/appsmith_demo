@@ -1,0 +1,10 @@
+INSERT INTO public."tasks" (
+	"id",
+	"title",
+	"description",
+	"completed")
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.title}}',
+	'{{insert_form.formData.description}}',
+	'{{insert_form.formData.completed}}');

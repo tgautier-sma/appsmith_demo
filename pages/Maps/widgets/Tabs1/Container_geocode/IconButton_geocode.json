@@ -37,9 +37,10 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 31,
+  "tooltip": "https://www.here.com/docs/bundle/geocoding-and-search-api-v7-api-reference/page/index.html",
   "topRow": 2,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "yi0kk7w9hu",
-  "widgetName": "IconButton1"
+  "widgetName": "IconButton_geocode"
 }

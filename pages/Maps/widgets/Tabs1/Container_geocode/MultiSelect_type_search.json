@@ -51,7 +51,7 @@
   "placeholderText": "Select option(s)",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 10,
+  "rightColumn": 13,
   "serverSideFiltering": false,
   "sourceData": "{{Functions.mapSearchType()}}",
   "topRow": 0,

@@ -3,7 +3,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 73,
+  "bottomRow": 71,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "defaultModel": "{\n  \"lat\":{{Latitude.text}},\n\t\"lng\":{{Longitude.text}},\n\t\"zoom\":{{Map_Zoom.value}}\n}",
   "dynamicBindingPathList": [
@@ -31,10 +31,10 @@
   "mobileRightColumn": 29,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 73,
-  "originalTopRow": 11,
+  "originalBottomRow": 186,
+  "originalTopRow": 122,
   "parentColumnSpace": 13.00732421875,
-  "parentId": "x1c72e5cse",
+  "parentId": "r9jajy5kfn",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "rightColumn": 63,
@@ -44,7 +44,7 @@
     "js": "var map = null;\nappsmith.onModelChange(newModel => {\n  // console.log(newModel);\n  // console.log(map);\n  const lat = newModel.lat;\n  const lng = newModel.lng;\n  const zoom = newModel.zoom;\n  const coord = [lng, lat];\n  if (map) {\n    map.getView().setCenter(new ol.proj.transform([lng, lat], 'EPSG:4326', 'EPSG:3857'));\n    map.getView().setZoom(zoom);\n  }\n});\nappsmith.onReady(() => {\n  const {\n    lat,\n    lng,\n    zoom\n  } = appsmith.model;\n  const coord = [lng, lat];\n  // Set up the OSM layer\n  var myTileServer = new ol.layer.Tile({\n    source: new ol.source.OSM({\n      crossOrigin: null,\n      url: 'https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png'\n    })\n  });\n  // Create the map\n  map = new ol.Map({\n    layers: [myTileServer],\n    target: 'map',\n    view: new ol.View({\n      center: new ol.proj.transform([lng, lat], 'EPSG:4326', 'EPSG:3857'),\n      zoom: zoom\n    })\n  });\n  map.addControl(new ol.control.FullScreen());\n  map.addControl(new ol.control.Rotate());\n});"
   },
   "theme": "{{appsmith.theme}}",
-  "topRow": 11,
+  "topRow": 4,
   "type": "CUSTOM_WIDGET",
   "uncompiledSrcDoc": {
     "css": ".map {\n  height:100vh;\n}\n.map:-webkit-full-screen {\n\theight: 100%;\n\tmargin: 0;\n}\n.map:fullscreen {\n\theight: 100%;\n}\n",

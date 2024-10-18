@@ -1,11 +1,10 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 7,
   "boxShadow": "none",
-  "defaultText": "{{Select_destination.value.lng}}",
+  "defaultOptionValue": "address",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,44 +13,50 @@
       "key": "borderRadius"
     },
     {
-      "key": "defaultText"
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "89d4xaln0s",
-  "label": "Longitude",
+  "key": "4zn1zloi5k",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "Type",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 32,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 5,
-  "mobileLeftColumn": 22,
-  "mobileRightColumn": 42,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 10,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "parentColumnSpace": 13.00732421875,
-  "parentId": "x1c72e5cse",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 19.001953125,
+  "parentId": "bwtugkoe1x",
   "parentRowSpace": 10,
+  "placeholderText": "Select option(s)",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 42,
-  "showStepArrows": false,
+  "rightColumn": 10,
+  "serverSideFiltering": false,
+  "sourceData": "{{Functions.mapSearchType()}}",
   "topRow": 0,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "jvym1c18o4",
-  "widgetName": "Longitude"
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "ns6mueglhh",
+  "widgetName": "MultiSelect_type_search"
 }

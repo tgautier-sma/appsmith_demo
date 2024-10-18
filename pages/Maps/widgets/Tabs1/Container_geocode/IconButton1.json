@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "send-message",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "hm7swpce43",
+  "leftColumn": 29,
+  "minWidth": 50,
+  "mobileBottomRow": 18,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 14,
+  "needsErrorInfo": false,
+  "onClick": "{{Here_geocode.run()}}",
+  "parentColumnSpace": 19.9375,
+  "parentId": "bwtugkoe1x",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 31,
+  "topRow": 2,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "yi0kk7w9hu",
+  "widgetName": "IconButton1"
+}

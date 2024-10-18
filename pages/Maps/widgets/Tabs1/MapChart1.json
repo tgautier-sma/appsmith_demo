@@ -1,6 +1,6 @@
 {
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 58,
+  "bottomRow": 81,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "colorRange": [
     {
@@ -252,6 +252,8 @@
   "mobileRightColumn": 36,
   "mobileTopRow": 15,
   "needsErrorInfo": false,
+  "originalBottomRow": 81,
+  "originalTopRow": 23,
   "parentColumnSpace": 13.5,
   "parentId": "4qj6ory8eq",
   "parentRowSpace": 10,
@@ -259,7 +261,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 61,
   "showLabels": true,
-  "topRow": 0,
+  "topRow": 23,
   "type": "MAP_CHART_WIDGET",
   "version": 1,
   "widgetId": "hhuhkk222m",

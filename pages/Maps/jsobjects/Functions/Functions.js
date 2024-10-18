@@ -12,5 +12,17 @@ export default {
 ];
 		return demoData;
 	},
+	mapSearchType(){
+		// address, area, city, houseNUmber, street,postalCodePoint,postalCodePoint,addressBlock
+		return [
+			{label:"Adresse",value:"address"},
+			{label:"Zone",value:"area"},
+			{label:"Ville",value:"city"},
+			{label:"Numéro de rue",value:"houseNUmber"},
+			{label:"Rue",value:"street"},
+			{label:"Code Postal",value:"postalCodePoint"},
+			{label:"Adresse complete",value:"addressBlock"},
+		]
+	},
 	
 }

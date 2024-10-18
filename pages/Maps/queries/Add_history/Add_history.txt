@@ -1,2 +1,2 @@
 INSERT INTO public."app_history" ("userid", "function", "key", "value", "app")
-  VALUES ('{{appsmith.user.email}}', 'map', 'cities', '{{Select_destination.options}}', 'demo');
+  VALUES ('{{appsmith.user.email}}', 'map', 'cities', '{{JSON.stringify(Functions.mapData())}}', 'demo');

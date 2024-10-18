@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66cfa4c28eb6fc0fd11d8a6b_3b226e33-c814-4883-8eb9-01f38790940f",
-  "id": "Maps_Get_city_history",
+  "gitSyncId": "66cfa4c28eb6fc0fd11d8a6b_860de1eb-0f12-4491-8cca-389ea0e662fb",
+  "id": "Historique utilisateur_DeleteQuery",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT value FROM public.\"app_history\" WHERE app='demo' and function='map' and key='cities';",
+      "body": "DELETE FROM public.\"app_history\"\n  WHERE \"id\" = {{data_table.triggeredRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,10 +22,9 @@
       "name": "Hostinger DB",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
-    "executeOnLoad": true,
-    "name": "Get_city_history",
-    "pageId": "Maps",
+    "executeOnLoad": false,
+    "name": "DeleteQuery",
+    "pageId": "Historique utilisateur",
     "userSetOnLoad": false
   }
 }

@@ -45,6 +45,10 @@
     {
       "id": "Maps",
       "isDefault": false
+    },
+    {
+      "id": "Historique utilisateur",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {

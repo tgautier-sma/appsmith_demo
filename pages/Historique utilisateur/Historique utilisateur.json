@@ -1,23 +1,24 @@
 {
-  "gitSyncId": "66cfa4c28eb6fc0fd11d8a6b_8220282b-6222-43eb-9722-4903a362da1f",
+  "gitSyncId": "66cfa4c28eb6fc0fd11d8a6b_351735f3-b0b3-4fbd-a66c-6a90ef6bc884",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 2200,
+          "bottomRow": 860,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 650,
+          "minHeight": 900,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 1174,
           "snapColumns": 64,
-          "snapRows": 63,
+          "snapRows": 125,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Maps",
-    "slug": "maps"
+    "name": "Historique utilisateur",
+    "slug": "historique-utilisateur"
   }
 }

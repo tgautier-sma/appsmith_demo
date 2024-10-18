@@ -1,0 +1,57 @@
+{
+  "allowZoom": true,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 79,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultMarkers": "[\n  {\n  \"lat\": \"{{Get_IP_data.data.lat}}\",\n  \"long\": \"{{Get_IP_data.data.lon}}\",\n  \"title\": \"{{Get_IP_data.data.isp}}\"\n}\n]",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "mapCenter"
+    },
+    {
+      "key": "defaultMarkers"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "mapCenter"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableMapTypeControl": false,
+  "enablePickLocation": true,
+  "enableSearch": true,
+  "flexVerticalAlignment": "start",
+  "isClickedMarkerCentered": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "4dyqjusjrs",
+  "leftColumn": 21,
+  "mapCenter": "{\n  \"lat\": {{Get_IP_data.data.lat}},\n  \"long\": {{Get_IP_data.data.lon}}\n}",
+  "minWidth": 450,
+  "mobileBottomRow": 49,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 19.9375,
+  "parentId": "dsdb0asi6z",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 9,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "bczvzouexl",
+  "widgetName": "Map2",
+  "zoomLevel": 50
+}

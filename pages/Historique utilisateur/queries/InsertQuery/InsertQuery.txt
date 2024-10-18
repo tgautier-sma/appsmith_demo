@@ -1,0 +1,16 @@
+INSERT INTO public."app_history" (
+	"userid",
+	"function",
+	"key",
+	"value",
+	"app",
+	"created_on",
+	"updated_on")
+VALUES (
+	'{{insert_form.formData.userid}}',
+	'{{insert_form.formData.function}}',
+	'{{insert_form.formData.key}}',
+	'{{insert_form.formData.value}}',
+	'{{insert_form.formData.app}}',
+	'{{insert_form.formData.created_on}}',
+	'{{insert_form.formData.updated_on}}');

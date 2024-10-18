@@ -1,0 +1,9 @@
+UPDATE public."app_history" SET
+		"userid" = '{{update_form.fieldState.userid.isVisible ? update_form.formData.userid : update_form.sourceData.userid}}',
+		"function" = '{{update_form.fieldState.function.isVisible ? update_form.formData.function : update_form.sourceData.function}}',
+    "key" = '{{update_form.fieldState.key.isVisible ? update_form.formData.key : update_form.sourceData.key}}',
+		"value" = '{{update_form.fieldState.value.isVisible ? update_form.formData.value : update_form.sourceData.value}}',
+		"app" = '{{update_form.fieldState.app.isVisible ? update_form.formData.app : update_form.sourceData.app}}',
+		"created_on" = '{{update_form.fieldState.created_on.isVisible ? update_form.formData.created_on : update_form.sourceData.created_on}}',
+		"updated_on" = '{{update_form.fieldState.updated_on.isVisible ? update_form.formData.updated_on : update_form.sourceData.updated_on}}'
+WHERE "id" = {{data_table.selectedRow.id}};

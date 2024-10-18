@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 5,
   "boxShadow": "none",
-  "defaultText": "{{Functions.mapData()[Select_destination.selectedOptionValue-1].lng}}",
+  "defaultText": "{{Select_destination.value.lng}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

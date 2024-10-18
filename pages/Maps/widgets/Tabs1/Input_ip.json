@@ -1,64 +1,54 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
+  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 7,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
   "dynamicTriggerPathList": [],
+  "iconAlign": "left",
+  "inputType": "TEXT",
   "isDisabled": false,
-  "isFilterable": true,
   "isLoading": false,
   "isRequired": true,
   "isVisible": true,
-  "key": "wkeo56jeo7",
+  "key": "6oiy1hxqjz",
+  "label": "Ip ou nom de domaine",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Destination",
+  "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 81,
+  "mobileBottomRow": 7,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 20,
-  "mobileTopRow": 74,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "optionLabel": "label",
-  "optionValue": "value",
-  "originalBottomRow": 73,
-  "originalTopRow": 66,
-  "parentColumnSpace": 20.25,
-  "parentId": "x1c72e5cse",
+  "parentColumnSpace": 19.9375,
+  "parentId": "dsdb0asi6z",
   "parentRowSpace": 10,
-  "placeholderText": "Choisir une destination",
   "renderMode": "CANVAS",
+  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 14,
-  "serverSideFiltering": false,
-  "sourceData": "{{\nJSON.parse(Get_city_history.data[0].value).map(p=> ({label:p.title, value:p}))\n}}",
+  "rightColumn": 20,
+  "showStepArrows": false,
   "topRow": 0,
-  "type": "SELECT_WIDGET",
-  "version": 1,
-  "widgetId": "r2qf6x7zhc",
-  "widgetName": "Select_destination"
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "bodirn8o3b",
+  "widgetName": "Input_ip"
 }

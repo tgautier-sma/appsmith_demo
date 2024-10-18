@@ -24,5 +24,7 @@ export default {
 			{label:"Adresse complete",value:"addressBlock"},
 		]
 	},
-	
+	getKey(){
+		return "AIzaSyBySBncmBe12z8yxSxai9plG8SW9Vtgx8M"
+	}
 }

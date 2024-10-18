@@ -3,7 +3,7 @@
   "borderOpacity": 100,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 57,
+  "bottomRow": 56,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "dynamicBindingPathList": [
     {
@@ -35,9 +35,9 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 63,
-  "source": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBySBncmBe12z8yxSxai9plG8SW9Vtgx8M\n    &q={{Search_Location.text}}",
+  "source": "https://www.google.com/maps/embed/v1/place?key={{Functions.getKey()}}\n    &q={{Search_Location.text}}",
   "srcDoc": "",
-  "topRow": 5,
+  "topRow": 4,
   "type": "IFRAME_WIDGET",
   "version": 1,
   "widgetId": "t4dpkmzlmb",

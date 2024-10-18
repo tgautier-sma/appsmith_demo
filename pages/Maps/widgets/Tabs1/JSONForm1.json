@@ -366,7 +366,7 @@
     "buttonVariant": "SECONDARY"
   },
   "responsiveBehavior": "fill",
-  "rightColumn": 18,
+  "rightColumn": 27,
   "schema": {
     "__root_schema__": {
       "accessor": "__root_schema__",

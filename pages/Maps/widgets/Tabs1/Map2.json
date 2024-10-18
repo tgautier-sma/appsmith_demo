@@ -2,7 +2,7 @@
   "allowZoom": true,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 79,
+  "bottomRow": 51,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "defaultMarkers": "[\n  {\n  \"lat\": \"{{Get_IP_data.data.lat}}\",\n  \"long\": \"{{Get_IP_data.data.lon}}\",\n  \"title\": \"{{Get_IP_data.data.isp}}\"\n}\n]",
   "dynamicBindingPathList": [
@@ -34,7 +34,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "4dyqjusjrs",
-  "leftColumn": 21,
+  "leftColumn": 28,
   "mapCenter": "{\n  \"lat\": {{Get_IP_data.data.lat}},\n  \"long\": {{Get_IP_data.data.lon}}\n}",
   "minWidth": 450,
   "mobileBottomRow": 49,

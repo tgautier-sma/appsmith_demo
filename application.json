@@ -32,7 +32,7 @@
     },
     {
       "id": "Table from DB",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Task CRUD",
@@ -49,6 +49,10 @@
     {
       "id": "Historique utilisateur",
       "isDefault": false
+    },
+    {
+      "id": "Accueil",
+      "isDefault": true
     }
   ],
   "unpublishedApplicationDetail": {

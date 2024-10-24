@@ -32,6 +32,8 @@
   "mobileTopRow": 8,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Maps', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 11,
+  "originalTopRow": 7,
   "parentColumnSpace": 4.55029296875,
   "parentId": "a6lny2h6sv",
   "parentRowSpace": 10,

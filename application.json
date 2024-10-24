@@ -27,6 +27,10 @@
   "icon": "location",
   "pages": [
     {
+      "id": "Accueil",
+      "isDefault": true
+    },
+    {
       "id": "Upload File",
       "isDefault": false
     },
@@ -49,10 +53,6 @@
     {
       "id": "Historique utilisateur",
       "isDefault": false
-    },
-    {
-      "id": "Accueil",
-      "isDefault": true
     }
   ],
   "unpublishedApplicationDetail": {

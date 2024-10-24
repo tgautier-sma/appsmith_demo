@@ -1,0 +1,41 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 91,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "flexVerticalAlignment": "start",
+  "image": "https://prod.gautiersa.fr/remote.php/dav/files/tgautier/assets/collaboration.png",
+  "imageShape": "RECTANGLE",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "g550tscfrl",
+  "leftColumn": 1,
+  "maxZoomLevel": 1,
+  "mobileBottomRow": 60,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 48,
+  "needsErrorInfo": false,
+  "objectFit": "contain",
+  "originalBottomRow": 89,
+  "originalTopRow": 36,
+  "parentColumnSpace": 23.53125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 38,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "1lc9qtd6yt",
+  "widgetName": "Image2"
+}

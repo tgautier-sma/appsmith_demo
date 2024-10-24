@@ -32,6 +32,8 @@
   "mobileTopRow": 8,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Tools', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 11,
+  "originalTopRow": 7,
   "parentColumnSpace": 4.55029296875,
   "parentId": "20rdwz3ud4",
   "parentRowSpace": 10,

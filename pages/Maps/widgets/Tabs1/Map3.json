@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 65,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-  "defaultMarkers": "[\n  {\n    \"lat\":{{Table_communes.selectedRow[\"centre\"][1]}} ,\n    \"long\": {{Table_communes.selectedRow[\"centre\"][0]}},\n    \"title\": {{Table_communes.selectedRow[\"nom\"]}}\n  }\n]\n",
+  "defaultMarkers": "[\n  {\n    \"lat\":{{Table_communes.selectedRow[\"centre\"][1]}} ,\n    \"long\": {{Table_communes.selectedRow[\"centre\"][0]}},\n    \"title\": {{Table_communes.selectedRow[\"tag\"]}} \n  }\n]\n",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -17,6 +17,7 @@
     }
   ],
   "dynamicTriggerPathList": [],
+  "enableCreateMarker": false,
   "enableMapTypeControl": false,
   "enablePickLocation": true,
   "enableSearch": true,

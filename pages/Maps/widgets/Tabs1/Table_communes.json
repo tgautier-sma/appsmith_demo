@@ -43,9 +43,10 @@
     "mairie",
     "epci",
     "departement",
-    "region"
+    "region",
+    "customColumn1"
   ],
-  "columnUpdatedAt": 1732876308478,
+  "columnUpdatedAt": 1732888532239,
   "columnWidthMap": {
     "code": 84,
     "nom": 205
@@ -109,6 +110,9 @@
     },
     {
       "key": "primaryColumns.region.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -302,6 +306,39 @@
       "originalId": "contour",
       "sticky": "",
       "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "tag",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{Table_communes.processedTableData.map((currentRow, currentIndex) => ( currentRow.nom + ' -  ' + currentRow.population + ' personnes'))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "tag",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "originalId": "customColumn1",
+      "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

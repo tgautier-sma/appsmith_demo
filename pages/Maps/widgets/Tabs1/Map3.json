@@ -1,0 +1,53 @@
+{
+  "allowZoom": true,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 65,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultMarkers": "[\n  {\n    \"lat\":{{Table_communes.selectedRow[\"centre\"][1]}} ,\n    \"long\": {{Table_communes.selectedRow[\"centre\"][0]}},\n    \"title\": {{Table_communes.selectedRow[\"nom\"]}}\n  }\n]\n",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "defaultMarkers"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableMapTypeControl": false,
+  "enablePickLocation": true,
+  "enableSearch": true,
+  "flexVerticalAlignment": "start",
+  "isClickedMarkerCentered": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vk5fb7uzy5",
+  "leftColumn": 37,
+  "mapCenter": {
+    "lat": 48.8575475,
+    "long": 2.3513765,
+    "title": "Paris, France"
+  },
+  "minWidth": 450,
+  "mobileBottomRow": 44,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 23.21875,
+  "parentId": "zlyl0o62w8",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 4,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "56gh8f9lnv",
+  "widgetName": "Map3",
+  "zoomLevel": 60
+}

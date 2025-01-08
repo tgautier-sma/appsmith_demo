@@ -1,6 +1,6 @@
 {
   "gitSyncId": "66cfa4c28eb6fc0fd11d8a6b_09765617-6b2a-4a9a-aab7-665a76668c2d",
-  "id": "Page1_Update_public_ia_refs1",
+  "id": "ia_Update_public_ia_refs1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
     ],
     "executeOnLoad": false,
     "name": "Update_public_ia_refs1",
-    "pageId": "Page1",
+    "pageId": "ia",
     "userSetOnLoad": false
   }
 }

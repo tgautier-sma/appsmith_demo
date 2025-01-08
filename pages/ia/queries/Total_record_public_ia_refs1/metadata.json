@@ -1,6 +1,6 @@
 {
   "gitSyncId": "66cfa4c28eb6fc0fd11d8a6b_310537f2-2254-476a-be5d-730188f1d631",
-  "id": "Page1_Total_record_public_ia_refs1",
+  "id": "ia_Total_record_public_ia_refs1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
     ],
     "executeOnLoad": true,
     "name": "Total_record_public_ia_refs1",
-    "pageId": "Page1",
+    "pageId": "ia",
     "userSetOnLoad": false
   }
 }
